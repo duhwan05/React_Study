@@ -22,7 +22,8 @@
 
 리액트에서는 보통 컴포넌트를 만들어야 하는데 **크게 2가지**로 만들 수 있다. **함수형 컴포넌트**와 **클래스형 컴포넌트**이다.
 
-![Component Example](https://prod-files-secure.s3.us-west-2.amazonaws.com/f761dc0d-dc23-45fa-adf3-b2f18e942bfe/07d2ad87-8764-49db-8e48-08ff0724f0b1/Untitled.png)
+![Component Example](![1](https://github.com/duhwan05/React_Study/assets/131845881/aef69bea-98f6-4382-97fe-37579413e08a)
+)
 
 여기서 **컴포넌트(Component)란..?** >> **입력을 받아 출력하는 역할**
 
@@ -39,7 +40,8 @@
 
 페이지를 만들기 위해서는 먼저 **라우터**를 준비해야 합니다. 설치를 위해 새로운 터미널을 열고 설치합니다. 터미널이 열리면 워크스페이스로 설정되어 있으므로, 사용할 폴더로 이동한 후에 설치를 진행해야 합니다.
 
-![Install Router](https://prod-files-secure.s3.us-west-2.amazonaws.com/f761dc0d-dc23-45fa-adf3-b2f18e942bfe/6dee6da8-535d-4c9c-a496-1608598240b8/Untitled.png)
+![Install Router](![2](https://github.com/duhwan05/React_Study/assets/131845881/3b4bd972-8147-4001-a038-e230d0ef13a2)
+)
 
 이처럼 **`cd “이동할 폴더”`** 명령어를 쓰면 그 폴더로 이동하고 이후에 **`npm install react-router-dom@6`**을 입력해줍니다. 여기서 **@6**은 **버전**입니다.
 
@@ -53,7 +55,8 @@
 
 ### **export default 란?**
 
-![Export Default Example](https://prod-files-secure.s3.us-west-2.amazonaws.com/f761dc0d-dc23-45fa-adf3-b2f18e942bfe/0659bde7-08d4-40e8-9a67-5ad3370e28b3/Untitled.png)
+![Export Default Example](![3](https://github.com/duhwan05/React_Study/assets/131845881/eefac261-d08c-46af-858f-cb3320dbcd60)
+)
 
 보통 함수형 컴포넌트를 만드는 이유는 다른 곳에서 가져다 쓰기 위함인데 **마지막 줄인 `export default` 줄을 작성하지 않으면 다른 곳에서 사용할 수가 없으니 주의해야 합니다.**
 
@@ -61,7 +64,8 @@
 
 ### 함수 선언 방식
 
-![Function Declaration](https://prod-files-secure.s3.us-west-2.amazonaws.com/f761dc0d-dc23-45fa-adf3-b2f18e942bfe/2e60b608-55c4-4d1c-b44d-310dcbcb329f/Untitled.png)
+![Function Declaration](![4](https://github.com/duhwan05/React_Study/assets/131845881/2d458239-90ce-492a-aca9-112a76837908)
+)
 
 ### **주요 차이점 요약:**
 
@@ -76,7 +80,8 @@
 
 ### 라우팅 사용방법
 
-![Routing Example](https://prod-files-secure.s3.us-west-2.amazonaws.com/f761dc0d-dc23-45fa-adf3-b2f18e942bfe/29f10432-01c3-49c5-aa2d-9e07c36ad1f5/Untitled.png)
+![Routing Example](![5](https://github.com/duhwan05/React_Study/assets/131845881/3a2eee96-43ae-49ea-8009-7b5f65281661)
+)
 
 한 화면에서 다른 페이지를 불러와 표시하고 싶을 때는 라우팅을 사용하는데, 방법은 매우 간단합니다.
 `nav` 태그 안에 `Link` 태그를 사용하여 불러올 다른 페이지를 지정하고, 아래에는 `Routes` 태그 안에 `Route` 태그를 사용하여 페이지를 설정합니다.
@@ -90,7 +95,8 @@
 
 **예시)**
 
-![State Change Example](https://prod-files-secure.s3.us-west-2.amazonaws.com/f761dc0d-dc23-45fa-adf3-b2f18e942bfe/e50c0b42-685f-4207-80a3-0c1b2ffc6613/Untitled.png)
+![State Change Example](![6](https://github.com/duhwan05/React_Study/assets/131845881/e6b2b37b-a269-489b-a026-08e5cb3755a7)
+)
 
 useState를 사용하여 빈 문자열을 할당하고, 각각에 대해 inputs를 할당하여 복사합니다. 그 후, 입력란에서 작성된 내용들을 id와 value로 매칭하여 **inputs에 재할당하면** **state 상태가 변경**됩니다. 
 여기서 **...**은 **inputs 배열에 있는 데이터들을 분해하여 새로운 배열을 생성하는 것입니다.**
