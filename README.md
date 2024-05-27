@@ -61,7 +61,7 @@
 
 ### 함수 선언 방식
 
-![Function Declaration]((public/img/4.png)
+![Function Declaration](public/img/4.png)
 
 ### **주요 차이점 요약:**
 
